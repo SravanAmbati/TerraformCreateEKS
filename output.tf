@@ -1,3 +1,3 @@
 output "endpoint" {
-  value = aws_eks_cluster.eks.name
+  value = aws_vpc.demo-vpc.cidr_block
 }
